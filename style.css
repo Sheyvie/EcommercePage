@@ -191,12 +191,16 @@ ion-icon {
   color: var(--light-gray);
 }
 .review {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  text-align: center;
   gap: 2rem;
   margin-top: 3em;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
+  padding: 2em;
+
   margin-bottom: 10em;
+  width: 100%;
 }
 
 .review p {
